@@ -11,7 +11,6 @@
         "steps": [
           {
             "result": {
-              "duration": 995900,
               "status": "passed"
             },
             "line": 4,
@@ -30,7 +29,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-08T23:07:11.364Z",
+        "start_timestamp": "2021-05-08T23:28:10.929Z",
         "line": 7,
         "name": "",
         "description": "",
@@ -40,7 +39,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2109311800,
+              "duration": 3465952200,
               "status": "passed"
             },
             "line": 8,
