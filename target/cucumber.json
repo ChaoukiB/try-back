@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is \"advisor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"advisor\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.project.step_deff.login.the_user_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-24T20:12:15.225Z",
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login.the_user_login_with_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/target.feature",
+    "tags": []
+  }
+]
