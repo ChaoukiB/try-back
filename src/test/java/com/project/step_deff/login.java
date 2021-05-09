@@ -89,8 +89,5 @@ public class login extends dashboard_page{
         return sum == num;
     }
 
-@Test
-    public void test(){
 
-}
 }
