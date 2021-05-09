@@ -10,8 +10,7 @@ Feature:
     And the user "chaouki" login with password "sekret"
     And the user "chaouki" login with password "sekret"
     And the user "chaouki" login with password "sekret"
-    And the user logs out ""
-    Then the user should be on login page
+
 
   @wip
   Scenario: 2
