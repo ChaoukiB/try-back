@@ -10,6 +10,7 @@ Feature:
     And the user "chaouki" login with password "sekret"
     And the user "chaouki" login with password "sekret"
     And the user "chaouki" login with password "sekret"
+    And hello
 
   @wip
   Scenario: 2

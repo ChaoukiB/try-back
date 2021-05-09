@@ -11,7 +11,6 @@
         "steps": [
           {
             "result": {
-              "duration": 997100,
               "status": "passed"
             },
             "line": 4,
@@ -30,17 +29,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-09T00:02:24.816Z",
+        "start_timestamp": "2021-05-09T00:38:35.061Z",
         "line": 7,
-        "name": "",
+        "name": "1",
         "description": "",
-        "id": ";",
+        "id": ";1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2135602700,
+              "duration": 2208855500,
               "status": "passed"
             },
             "line": 8,
@@ -62,10 +61,204 @@
           },
           {
             "result": {
-              "duration": 240334800,
+              "duration": 243938800,
               "status": "passed"
             },
             "line": 9,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237068700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242318200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194393700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is \"advisor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"advisor\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T00:38:38.223Z",
+        "line": 15,
+        "name": "2",
+        "description": "",
+        "id": ";2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192747200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is \"advisor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"advisor\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T00:38:38.418Z",
+        "line": 18,
+        "name": "3",
+        "description": "",
+        "id": ";3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197219000,
+              "status": "passed"
+            },
+            "line": 19,
             "name": "the user \"chaouki\" login with password \"sekret\"",
             "match": {
               "arguments": [
