@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1008900,
+              "duration": 997100,
               "status": "passed"
             },
             "line": 4,
@@ -30,7 +30,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-08T23:59:28.964Z",
+        "start_timestamp": "2021-05-09T00:02:24.816Z",
         "line": 7,
         "name": "",
         "description": "",
@@ -40,10 +40,32 @@
         "steps": [
           {
             "result": {
-              "duration": 2247728100,
+              "duration": 2135602700,
               "status": "passed"
             },
             "line": 8,
+            "name": "the user \"chaouki\" login with password \"sekret\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chaouki\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"sekret\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.project.step_deff.login1.theUserLoginWithPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240334800,
+              "status": "passed"
+            },
+            "line": 9,
             "name": "the user \"chaouki\" login with password \"sekret\"",
             "match": {
               "arguments": [
